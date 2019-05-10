@@ -3,10 +3,12 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
-export default new Vuex.Store({
-  state: {
+const state = {
+  isCollapse: false
+}
 
-  },
+export default new Vuex.Store({
+  state,
   mutations: {
 
   },
